@@ -20,7 +20,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx:1.10
+      - image: nginx:latest
         name: nginx
         ports:
             - name: http
